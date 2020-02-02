@@ -1,5 +1,18 @@
 library(httr)
 
+
+set_key <- function (key) {
+  assign('API_key', key, envir = .GlobalEnv) 
+}
+
+get_videoID <- function (video_url) {
+  n_last <- 11                                
+  substr(video_url, nchar(video_url) - n_last + 1, nchar(video_url))
+}
+
+
+
+
 API_key = 'AIzaSyAdy65AkdC-E8--0DYB5osklXQFQOKAFjI'
 video_id <- '9S-U5f140-U'
 
@@ -7,6 +20,7 @@ get_views <- function (key, id) {
   response <- GET('https://www.googleapis.com/youtube/v3/videos', query = list(part = 'statistics', id = id, key = key))
 
   response <- content(response)
+  
   clean_res <- response$items[[1]]
   stats <- clean_res$statistics
 

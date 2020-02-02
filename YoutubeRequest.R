@@ -3,7 +3,7 @@ library(httr)
 API_key = 'AIzaSyAdy65AkdC-E8--0DYB5osklXQFQOKAFjI'
 video_id <- '9S-U5f140-U'
 
-youtube_request <- function (key,id){
+youtube_request <- function (key,id='9S-U5f140-U'){
   
   url <- 'https://www.googleapis.com/youtube/v3/videos?'
   part <- "statistics"
