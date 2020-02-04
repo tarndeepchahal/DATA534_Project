@@ -1,0 +1,5 @@
+get_comments            Get the number of comments on a YouTube Video
+get_details             Get detailed information about the YouTube Video
+get_likes               Get the number of likes on a YouTube Video
+get_views               Get the number of views of A YouTube Video
+set_key                 Setup YouTube API Key

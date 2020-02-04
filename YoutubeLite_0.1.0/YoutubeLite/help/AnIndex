@@ -1,0 +1,8 @@
+get_channelStats	get_channelStats
+get_commentCount	get_commentCount
+get_details	get_details
+get_likes	get_likes
+get_relatedVideos	get_relatedVideos
+get_videoID	get_videoID
+get_views	get_views
+set_key	set_key
