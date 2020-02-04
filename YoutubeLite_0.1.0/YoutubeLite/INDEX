@@ -1,10 +1,5 @@
-get_channelStats        Get statistic information of the channel of the
-                        Youtube Video
-get_commentCount        Get number of Comments From A Youtube Video
-get_details             Get detail information about the Youtube Video
-get_likes               Get the number of Likes of A Youtube Video
-get_relatedVideos       Return a list of videos similar to the Youtube
-                        Video provided
-get_videoID             Get ID of Youtube Video
-get_views               Get the number of views of A Youtube Video
-set_key                 Setup Youtube API Key
+get_comments            Get the number of comments on a YouTube Video
+get_details             Get detailed information about the YouTube Video
+get_likes               Get the number of likes on a YouTube Video
+get_views               Get the number of views of A YouTube Video
+set_key                 Setup YouTube API Key

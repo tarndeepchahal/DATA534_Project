@@ -2,18 +2,18 @@
 \alias{get_likes}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Get the number of Likes of A Youtube Video
+Get the number of likes on a YouTube Video
 }
 \description{
-This function will return the number of like of a Youtube Video
+This function returns the number of times a YouTube video has been liked and disliked.
 }
 \usage{
-get_likes(video_url = Youtube_Video_URL)
+get_likes(video_url = YouTube_Video_URL)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{video_url}{
-URL of the Youtube Video.
+URL of the YouTube Video.
 }
 }
 \details{
@@ -33,7 +33,7 @@ URL of the Youtube Video.
 Tarndeep Chahal, Vincent Phan, Shahid Jahagirdar
 }
 \note{
-Users need to run set_key function to access to Youtube database.
+Users first need to run the set_key function to access the YouTube API.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
@@ -42,5 +42,4 @@ Users need to run set_key function to access to Youtube database.
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-set_key('AIzaSyAdy65AkdC-E8--0DYB5osklXQFQOKACVs')
 get_likes('https://www.youtube.com/watch?v=d-eUoZzFutc')

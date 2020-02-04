@@ -1,23 +1,24 @@
-\name{get_videoID}
-\alias{get_videoID}
+\name{get_commentCount}
+\alias{get_commentCount}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Get ID of Youtube Video
+Get the number of comments on a YouTube Video
 }
 \description{
-This function retrieve the ID of a Youtuve Video from its URL.
+This function returns a list that contains the video Id and the number of comments posted on a given video.
 }
 \usage{
-get_videoID(video_url = Youtube_Video_URL)
+get_comments(video_url = YouTube_Video_URL)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{video_url}{
-URL of the Youtube Video.
-  }
+URL of the YouTube Video.
+}
+
 }
 \details{
-This function retrieve the ID of a Youtuve Video from its URL. This function need to be implemented after running set_key function.
+%%  ~~ If necessary, more details than the description above ~~
 }
 \value{
 %%  ~Describe the value returned
@@ -33,7 +34,7 @@ This function retrieve the ID of a Youtuve Video from its URL. This function nee
 Tarndeep Chahal, Vincent Phan, Shahid Jahagirdar
 }
 \note{
-%%  ~~further notes~~
+Users first need to run the set_key function to access the YouTube API.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
@@ -42,5 +43,4 @@ Tarndeep Chahal, Vincent Phan, Shahid Jahagirdar
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-set_key('AIzaSyAdy65AkdC-E8--0DYB5osklXQFQOKACVs')
-get_videoID('https://www.youtube.com/watch?v=d-eUoZzFutc')
+get_comments('https://www.youtube.com/watch?v=d-eUoZzFutc')

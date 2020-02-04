@@ -2,18 +2,18 @@
 \alias{get_views}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Get the number of views of A Youtube Video
+Get the number of views of a YouTube Video
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This function returns a list that contains the video Id and the number of times the video has been watched.
 }
 \usage{
-get_views(video_url = Youtube_Video_URL)
+get_views(video_url = YouTube_Video_URL)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{video_url}{
-URL of the Youtube Video.
+URL of the YouTube Video.
 }
 
 }
@@ -34,7 +34,7 @@ URL of the Youtube Video.
 Tarndeep Chahal, Vincent Phan, Shahid Jahagirdar
 }
 \note{
-Users need to run set_key function to access to Youtube database.
+Users first need to run the set_key function to access the YouTube API.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
@@ -43,5 +43,4 @@ Users need to run set_key function to access to Youtube database.
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-set_key('AIzaSyAdy65AkdC-E8--0DYB5osklXQFQOKACVs')
 get_views('https://www.youtube.com/watch?v=d-eUoZzFutc')

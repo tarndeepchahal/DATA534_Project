@@ -2,10 +2,10 @@
 \alias{set_key}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Setup Youtube API Key
+Set YouTube API Key
 }
 \description{
-This function uses Youtube API Key to set up the access to Youtube Database. Users need to register a API Key before using the function.
+This function uses YouTube API Key to set up access to YouTube. Users are required to register an API Key before using any other function.
 }
 \usage{
 set_key(key=API_key)
@@ -13,11 +13,11 @@ set_key(key=API_key)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{key}{
-Youtube API key, an user need to register for an API key from Youtube website
+YouTube API key. Users need to register for an API key from the Google Developer Dashboard.
   }
 }
 \details{
-This function will set up the authorization process to access to Youtube database by using the Youtube API provided from the user. This function need to be implemented before running any function from this package
+This function sets up the provided API key as a variable that is then accessed by the other functions. This function needs to be implemented before running any other function in this package.
 }
 \value{
 %%  ~Describe the value returned
@@ -42,5 +42,4 @@ Tarndeep Chahal, Vincent Phan, Shahid Jahagirdar.
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-set_key('AIzaSyAdy65AkdC-E8--0DYB5osklXQFQOKACVs')
-
+set_key('API_KEY_VALUE')
