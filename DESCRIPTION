@@ -1,0 +1,13 @@
+Package: YouTubeLite
+Type: Package
+Title: YouTubeLite provides access to the YouTube API V3.
+Version: 0.1.0
+Author: Tarndeep Chahal, Vincent Phan, Shahid Jahagirdar
+Maintainer: Tarndeep Chahal <tarndeepchahal@gmail.com>
+Description: Get details, views, commment count and like number about a user-provided YouTube video.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: httr
+NeedsCompilation: no
+Packaged: 2020-02-02 06:04:32 UTC; VINCENT PHAN
