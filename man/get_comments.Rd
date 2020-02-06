@@ -8,7 +8,7 @@ Get the number of comments on a YouTube Video
 This function returns a list that contains the video Id and the number of comments posted on a given video.
 }
 \usage{
-get_comments(video_url = YouTube_Video_URL)
+get_commentCount(video_url = YouTube_Video_URL)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -43,4 +43,4 @@ Users first need to run the set_key function to access the YouTube API.
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-get_comments('https://www.youtube.com/watch?v=d-eUoZzFutc')
+get_commentCount('https://www.youtube.com/watch?v=d-eUoZzFutc')
