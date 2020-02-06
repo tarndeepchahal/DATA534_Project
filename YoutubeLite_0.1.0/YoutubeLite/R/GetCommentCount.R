@@ -1,7 +1,7 @@
 source("YoutubeRequest.R")
 
 # This function returns a list containing the video Id and the number of comments on a given video
-get_comments <- function (urlInput = NULL) {
+get_commentCount <- function (urlInput = NULL) {
   # Check if the URL is valid
   if(is.null(urlInput)){
     return("No URL has been passed")
