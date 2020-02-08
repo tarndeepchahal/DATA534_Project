@@ -15,7 +15,7 @@ devtools::install_github("tarndeepchahal/YouTubeLite", build_vignettes = TRUE)
 In order to use the package, a API key is required from the Google Developer Console(see <https://developers.google.com/youtube/v3/getting-started>). Make sure to enable all the YouTube APIs. Then set the API key via the `set_key()` function. For more information about YouTube authentication, see [YouTube Authentication Guide](https://developers.google.com/youtube/v3/guides/authentication).
 
 ``` r
-yt_oauth("API_key")
+set_key("API_key")
 ```
 
 **Get Number of Views of a Video**
